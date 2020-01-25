@@ -1,3 +1,3 @@
 - Project Title   : **UNIX-WORKBENCH**
-- Make was run at : **Sat Jan 25 19:29:59 GMT 2020**
-- The number of lines of code contained in guessinggame.sh is :       22
+- Make was run at : **Sat Jan 25 23:06:24 GMT 2020**
+- The number of lines of code contained in guessinggame.sh is :       26

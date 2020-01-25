@@ -11,12 +11,12 @@ function guess() {
         if ! [[ $guessNo =~ ^[0-9]+$ ]]; then
             echo "Numbers only please....!"
         else
-          if [[ noOfFiles -le noOfFilesInDirectory ]]; then
+          noOfFiles=guessNo
+          if [[ noOfFiles -lt noOfFilesInDirectory ]]; then
             echo "you entered too low"
-          else
+          elif [[ noOfFiles -gt noOfFilesInDirectory ]]; then
             echo "you entered too high"
           fi
-          noOfFiles=guessNo
         fi
     done
 
